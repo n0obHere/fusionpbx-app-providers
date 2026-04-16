@@ -308,4 +308,13 @@
 		$apps[$x]['db'][$y]['fields'][$z]['key']['reference']['table'] = 'v_providers';
 		$apps[$x]['db'][$y]['fields'][$z]['key']['reference']['field'] = 'provider_uuid';
 
-?>
+	//default settings
+		$y = 0;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "db6eb396-a0af-4ff9-b1c0-5794bd0b3949";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "providers";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "provider_uuid";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the default provider uuid.";
+
